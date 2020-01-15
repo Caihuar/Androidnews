@@ -1,0 +1,116 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <!-- 箭头 -->
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        <!--返回键样式-->
+        <item name="android:fitsSystemWindows">true</item>
+
+    </style>
+    <style name="DrawerArrowStyle" parent="Base.Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@android:color/white</item>
+    </style>
+    <style name="aboutDialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowBackground">@color/white_dark</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="tablayoutIcon" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">false</item>
+    </style>
+    <style name="cardStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="MyEditText" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">#4E4D4D</item>
+        <item name="colorControlActivated">@android:color/holo_orange_dark</item>
+    </style>
+    <style name="AppThemeNoAction" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#F32020</item>
+        <item name="colorPrimaryDark">#F32020</item>
+        <item name="colorAccent">#F3F5F3</item>
+        <item name="mainBgColor">#DB3A3A</item>
+        <item name="mainColor">#F32020</item>
+    </style>
+    <!--换肤-->
+    <style name="AppThemeNoAction.Green">
+        <item name="colorPrimary">#005803</item>
+        <item name="colorPrimaryDark">#388E3C</item>
+        <item name="colorAccent">#014601</item>
+        <item name="mainBgColor">#78D87D</item>
+        <item name="mainColor">#4CAF50</item>
+    </style>
+
+    <style name="AppThemeNoAction.Blue">
+        <item name="colorPrimary">#1976D2</item>
+        <item name="colorPrimaryDark">#1976D2</item>
+        <item name="colorAccent">#F3F5F3</item>
+        <item name="mainBgColor">#5094C7</item>
+        <item name="mainColor">#2196F3</item>
+    </style>
+
+    <style name="AppThemeNoAction.Yellow">
+        <item name="colorPrimary">#FFC107</item>
+        <item name="colorPrimaryDark">#FFC107</item>
+        <item name="colorAccent">#631801</item>
+        <item name="mainBgColor">#FFEB3B</item>
+        <item name="mainColor">#FFC107</item>
+    </style>
+
+    <style name="AppThemeNoAction.Grey">
+        <item name="colorPrimary">#455A64</item>
+        <item name="colorPrimaryDark">#455A64</item>
+        <item name="colorAccent">#58575A</item>
+        <item name="mainBgColor">#CFD8DC</item>
+        <item name="mainColor">#607D8B</item>
+    </style>
+    <style name="AppThemeNoAction.Red">
+        <item name="colorPrimary">#F32020</item>
+        <item name="colorPrimaryDark">#F32020</item>
+        <item name="colorAccent">#F3F5F3</item>
+        <item name="mainBgColor">#DB3A3A</item>
+        <item name="mainColor">#F32020</item>
+    </style>
+    <style name="AppThemeNoAction.White">
+        <item name="colorPrimary">#C24141</item>
+        <item name="colorPrimaryDark">#F08080</item>
+        <item name="colorAccent">#070707</item>
+        <item name="mainBgColor">#DFC5C5</item>
+        <item name="mainColor">#F08080</item>
+    </style>
+
+
+
+
+
+
+
+
+
+
+</resources>

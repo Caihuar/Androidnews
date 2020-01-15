@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="220dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/item_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="标题标题标题标题标题标题标题标题标题标题标题"
+        android:textColor="#000"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:scaleType="fitXY"
+        android:layout_below="@+id/item_number"
+        android:id="@+id/item_image"
+        android:layout_width="match_parent"
+        android:layout_height="150dp" />
+    <TextView
+        android:id="@+id/tv_pubDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/item_image"
+        android:text="时间"/>
+
+    <TextView
+        android:id="@+id/tv_author"
+        android:layout_width="wrap_content"
+         android:text="作者"
+        android:layout_below="@+id/item_image"
+        android:layout_toLeftOf="@+id/tv_pubDate"
+        android:layout_height="wrap_content" />
+
+    <TextView
+
+        android:id="@+id/content"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="0"
+        android:text="内容"
+        android:layout_below="@+id/tv_author"
+        android:textColor="#000"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/docid"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="0"
+        android:text="文章id"
+        android:textColor="#000"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/share_title"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="0"
+        android:text="文章标题"
+        android:textColor="#000"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/share_time"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="0"
+        android:text="文章时间"
+        android:textColor="#000"
+        android:textSize="16sp" />
+    <View
+        android:layout_marginTop="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/tv_author"
+        android:background="#d3d3d3"/>
+</RelativeLayout>
